@@ -1,0 +1,13 @@
+[
+  { "name": "React", "logo": "/public/react.svg" },
+  { "name": "Spring Boot", "logo": "/public/Spring.svg" },
+  { "name": "Django", "logo": "/public/Django.svg" },
+  { "name": "Java", "logo": "/public/Java.svg" },
+  { "name": "Python", "logo": "/public/Python.svg" },
+  { "name": "C++", "logo": "/public/C++.svg" },
+  { "name": "C", "logo": "/public/C.svg" },
+  { "name": "JavaScript", "logo": "/public/JavaScript.svg" },
+  { "name": "HTML", "logo": "/public/HTML5.svg" },
+  { "name": "CSS", "logo": "/public/CSS3.svg" },
+  { "name": "MySql", "logo": "/public/MySQL.svg" }
+]
