@@ -1,7 +1,9 @@
+import { useState } from 'react';
 import ThemeToggle from './ThemeToggle';
-// import avatar from '../assets/avatar.png';
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <header className="nav">
       <div className="container nav-inner">
@@ -9,7 +11,18 @@ export default function Header() {
           <img src="/images.png" alt="Avatar" />
           <span>Kathirdhasan</span>
         </a>
-        <nav className="nav-links" aria-label="Primary">
+
+        {/* Hamburger button */}
+        <button
+          className="menu-toggle"
+          aria-label="Toggle navigation"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          ☰
+        </button>
+
+        {/* Navigation links */}
+        <nav className={`nav-links ${isOpen ? 'open' : ''}`} aria-label="Primary">
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
           <a href="#education">Education</a>

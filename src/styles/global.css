@@ -285,3 +285,56 @@ button { cursor: pointer; }
   transition: opacity 0.3s ease;
 }
 .footer:hover { opacity: 1; }
+
+
+/* Hamburger button */
+.menu-toggle {
+  display: none;              /* hidden by default */
+  font-size: 1.6rem;
+  background: none;
+  border: none;
+  color: var(--text);
+  cursor: pointer;
+  margin-left: auto;
+  transition: transform 0.25s ease;
+}
+
+.menu-toggle:hover {
+  transform: scale(1.1);
+}
+
+/* Show button on mobile */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;           /* 👈 makes it visible on mobile */
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: var(--card);
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    transform: translateX(100%);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .nav-links.open {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .nav-links a {
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+  }
+}
