@@ -6,7 +6,7 @@ export default function Header() {
     <header className="nav">
       <div className="container nav-inner">
         <a href="#home" className="brand" aria-label="Go to home">
-          <img src="/public/images.png" alt="Avatar" />
+          <img src="/images.png" alt="Avatar" />
           <span>Kathirdhasan</span>
         </a>
         <nav className="nav-links" aria-label="Primary">
