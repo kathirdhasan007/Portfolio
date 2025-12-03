@@ -7,7 +7,7 @@ export default function Hero() {
         <h1 className="title">{profile.title}</h1>
         <p className="subtitle">{profile.summary}</p>
         <div className="intro-image">
-        <img src="/public/introimage.png" alt="" />
+        <img src="/introimage.png" alt="Intro" />
         </div>
         <div className="cta">
           <a className="btn primary" href={profile.links.resume} target="_blank" rel="noreferrer">View resume</a>
