@@ -5,7 +5,7 @@ export const profile = {
   summary:
     ' Java & Python Full-Stack Developer — passionate about building scalable web apps, clean interfaces, and powerful backend systems.',
   links: {
-    resume: 'https://drive.google.com/file/d/1T2FP4iATXzz-GA6p0vL64v86urWSwvMr/view?usp=sharing',
+    resume: 'https://drive.google.com/file/d/1UwYncGrFyD2CTZ0hLq6eGdI9XZOKuK7i/view?usp=sharing',
     github: 'https://github.com/kathirdhasan007',
     linkedin: 'https://www.linkedin.com/in/kathirdhasan07',
     email: 'kathirdhasan007@gmail.com'
